@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.shape.Polygon?>
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dashboard.SignUpController">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="250.0" style="-fx-background-color: f7734c;">
+            <children>
+                <ImageView fitHeight="262.0" fitWidth="245.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@todolist.jpg" />
+                    </image>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></ImageView>
+                <Polygon fill="#ea5f40" layoutX="34.0" layoutY="312.0" points="-32.9999885559082, 50.4000244140625, 91.59999084472656, -67.00001525878906, -32.9999885559082, -67.00001525878906" stroke="#ea5f40" strokeType="INSIDE" />
+            </children>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+        </AnchorPane>
+        <AnchorPane prefHeight="400.0" prefWidth="350.0">
+            <children>
+                <Label layoutX="89.0" layoutY="338.0" text="Already a member?">
+                    <font>
+                        <Font name="Calibri" size="14.0" />
+                    </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+                </Label>
+                <Label layoutX="54.0" layoutY="37.0" text="Productivity Dashboard">
+                    <font>
+                        <Font name="Roboto Slab Regular" size="22.0" />
+                    </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+                </Label>
+                <Label layoutX="40.0" layoutY="169.0" text="Username:">
+                    <font>
+                        <Font name="Calibri" size="16.0" />
+                    </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+                </Label>
+                <Label layoutX="42.0" layoutY="211.0" text="Password:">
+                    <font>
+                        <Font name="Calibri" size="16.0" />
+                    </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+                </Label>
+                <TextField fx:id="username" layoutX="136.0" layoutY="163.0" promptText="Username">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+                </TextField>
+                <PasswordField fx:id="password" layoutX="136.0" layoutY="207.0" promptText="Password">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+                </PasswordField>
+                <Button fx:id="signup_button" alignment="CENTER" layoutX="108.0" layoutY="279.0" mnemonicParsing="false" style="-fx-background-color: #FFCB8B;" text="Sign Up" textAlignment="CENTER">
+                    <font>
+                        <Font name="Calibri" size="16.0" />
+                    </font>
+                    <padding>
+                        <Insets bottom="10.0" left="50.0" right="50.0" top="10.0" />
+                    </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </Button>
+                <Button fx:id="login_button" layoutX="206.0" layoutY="333.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="49.0" style="-fx-background-color: #F4F4F4;" text="Login!" textFill="#4e6fdc" underline="true">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></AnchorPane>
+    </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</HBox>
